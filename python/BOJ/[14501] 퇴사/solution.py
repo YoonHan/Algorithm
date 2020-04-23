@@ -18,9 +18,7 @@ def solution():
         if i == N - 1:     # 마지막 일차에선 그 일을 하거나 안하거나 둘 중 하나
             if day == 1:
                 max_rewards[i] = reward
-                continue
-            else:
-                continue
+            continue
 
         if i + (day - 1) >= N:
             max_rewards[i] = max_rewards[i + 1]   # 근무 기간 벗어난 경우
