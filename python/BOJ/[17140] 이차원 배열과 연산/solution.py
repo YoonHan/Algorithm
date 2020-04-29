@@ -1,4 +1,4 @@
-from collections import defaultdict, deque
+from collections import defaultdict
 
 r, c, k = list(map(int, input().split()))
 array = [[*map(int, input().split())] for _ in range(3)]
